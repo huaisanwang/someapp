@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18B67BBD19A6478C00D02193 /* GitTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B67BBC19A6478C00D02193 /* GitTestViewController.m */; };
+		18B67BBF19A647BC00D02193 /* my.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18B67BBE19A647BC00D02193 /* my.plist */; };
 		EA954C7919762DC000B2270F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA954C7819762DC000B2270F /* Foundation.framework */; };
 		EA954C7B19762DC000B2270F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA954C7A19762DC000B2270F /* CoreGraphics.framework */; };
 		EA954C7D19762DC000B2270F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA954C7C19762DC000B2270F /* UIKit.framework */; };
@@ -34,6 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18B67BBB19A6478C00D02193 /* GitTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GitTestViewController.h; sourceTree = "<group>"; };
+		18B67BBC19A6478C00D02193 /* GitTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GitTestViewController.m; sourceTree = "<group>"; };
+		18B67BBE19A647BC00D02193 /* my.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = my.plist; sourceTree = "<group>"; };
 		EA954C7519762DC000B2270F /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA954C7819762DC000B2270F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EA954C7A19762DC000B2270F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -112,6 +117,8 @@
 		EA954C7E19762DC000B2270F /* test */ = {
 			isa = PBXGroup;
 			children = (
+				18B67BBB19A6478C00D02193 /* GitTestViewController.h */,
+				18B67BBC19A6478C00D02193 /* GitTestViewController.m */,
 				EA954C8719762DC000B2270F /* AppDelegate.h */,
 				EA954C8819762DC000B2270F /* AppDelegate.m */,
 				EA954C8A19762DC000B2270F /* Main.storyboard */,
@@ -130,6 +137,7 @@
 				EA954C8119762DC000B2270F /* InfoPlist.strings */,
 				EA954C8419762DC000B2270F /* main.m */,
 				EA954C8619762DC000B2270F /* test-Prefix.pch */,
+				18B67BBE19A647BC00D02193 /* my.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -228,6 +236,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18B67BBF19A647BC00D02193 /* my.plist in Resources */,
 				EA954C9119762DC000B2270F /* Images.xcassets in Resources */,
 				EA954C8319762DC000B2270F /* InfoPlist.strings in Resources */,
 				EA954C8C19762DC000B2270F /* Main.storyboard in Resources */,
@@ -250,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA954C8F19762DC000B2270F /* ViewController.m in Sources */,
+				18B67BBD19A6478C00D02193 /* GitTestViewController.m in Sources */,
 				EA954C8919762DC000B2270F /* AppDelegate.m in Sources */,
 				EA954C8519762DC000B2270F /* main.m in Sources */,
 			);
@@ -460,6 +470,7 @@
 				EA954CA919762DC000B2270F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EA954CAA19762DC000B2270F /* Build configuration list for PBXNativeTarget "testTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +479,7 @@
 				EA954CAC19762DC000B2270F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
